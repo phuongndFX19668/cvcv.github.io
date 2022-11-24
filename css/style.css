@@ -1,0 +1,176 @@
+body {
+  background-color: blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  font-weight: bold;
+}
+
+span {
+  font-weight: 100;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.w-70 {
+  width: 66%;
+}
+
+.w-30 {
+  width: 34%;
+}
+
+.left {
+  height: 100vh;
+  width: 75vw;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.right {
+  width: 25vw;
+  height: 100vh;
+}
+
+.bg-trang {
+  background-color: white;
+}
+
+.pb-5 {
+  padding-bottom: 55px !important;
+}
+
+.mb-5 {
+  margin-bottom: 40px;
+}
+
+.bd-b {
+  border-bottom: 1px solid black;
+}
+
+.bd-t {
+  border-top: 1px solid black;
+}
+
+.h-55 {
+  height: 55vh;
+}
+
+.h-45 {
+  height: 45vh;
+}
+
+.h-100 {
+  height: 100vh;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.ps-10 {
+  padding-left: 10px;
+}
+
+.bd-b-d {
+  border-bottom: 1px dashed gray;
+}
+
+.mb-2 {
+  margin-bottom: 10px;
+}
+
+.mt-2 {
+  margin-top: 10px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.pt-1 {
+  padding-top: 10px;
+}
+
+.title {
+  color: blue;
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item .icon {
+  width: 20%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.item .icon p {
+  font-size: 20px;
+}
+
+.item .number {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.item .number .so {
+  background-color: plum;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  position: relative;
+}
+
+.item .number .so .fix-center {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.item .naiyo {
+  width: 80%;
+}
+
+.content {
+  padding: 0 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  .text-banner {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    font-size: 15px;
+  }
+  .text-banner h1 {
+    font-size: 30px;
+  }
+  .text-nav {
+    display: none;
+  }
+  #nav-bar {
+    height: auto;
+    display: block;
+  }
+  #job-info {
+    align-items: center;
+  }
+  #nav-bar a:link,
+  a:visited {
+    display: block;
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+  }
+  #personal-info {
+    padding-right: 30px;
+  }
+  .content-2 {
+    border-left: 0;
+    border-top: 2px solid rgb(188, 58, 11);
+  }
+  #footer a:link {
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,54 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-banner {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+  }
+  .text-nav {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    padding: 10px;
+    margin-right: 1rem;
+    padding-bottom: 30px;
+  }
+  #nav-bar {
+    margin-top: 1rem;
+    margin-bottom: 10px;
+  }
+  #personal-info {
+    font-size: 16px;
+    padding-right: 40px;
+  }
+  #job-info {
+    align-items: center;
+  }
+  #target {
+    font-size: 16px;
+  }
+  .cer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .content-2 {
+    border-top: 0;
+    border-left: 2px solid rgb(188, 58, 11);
+  }
+  .project-title {
+    font-size: 14px !important;
+  }
+  .project-border {
+    font-size: 14px;
+    padding: 10px 4px !important;
+  }
+  .project-border span {
+    margin-right: 5px !important;
+  }
+  td {
+    font-size: 12px;
+  }
+  tr td:first-child {
+    width: 30%;
+  }
+}
